@@ -31,11 +31,10 @@ To execute the test this way, you can do the following:
    ##### In the command above, the branchname can be anything you want.  However, it is good practice to have the branchname be relevant to what you are trying to do.  In this instance a branchname of pull-request-userid (using your GitHub userid) would be best.
 3. Issue the command "*git branch*" to verify that you are on the branch you created.
 ![](images/git-branch-output.png)
-</br>
 4. Create a directory that is your Palo Alto Networks username</br>
-5. Add at least 1 text based file to that directory</br>
-6. Stage and commit your changes </br>
-7. Push your branch up to this repository - "*git push origin pull-request-\<userid\>*"</br>
+5. Add at least 1 text file to that directory</br>
+6. Stage (add) and commit your changes </br>
+7. Push your branch up to this repository using this command - "*git push origin pull-request-\<userid\>*"</br>
 
 <img src="images/git-push-output.png"/>  
 
