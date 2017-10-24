@@ -33,9 +33,9 @@ To execute the test this way, you can do the following:
 ![](images/git-branch-output.png)
 </br>
 4. Create a directory that is your Palo Alto Networks username
-5. Add at least 1 text based file to that directory
-6. Stage and commit your changes
-7. Push your branch up to this repository - "*git push origin pull-request-\<userid\>*"
+5. Add at least 1 text based file to that directory</br>
+6. Stage and commit your changes </br>
+7. Push your branch up to this repository - "*git push origin pull-request-\<userid\>*"</br>
 ![](images/git-push-output.png)  
 </br>
 8. Come back to this repository on Github and click on the "New Pull Request" button in the repo header.  
