@@ -13,7 +13,7 @@ To accomplish this you will need to create a branch, stage and commit your chang
 
 Once you have received an email stating that access has been granted, you can do the following:
 
-To execute the test this way, you can do the following:
+To execute the test, do the following:
 1. Clone this repository and change into the directory
 2. Create a new branch by using this command - "*git checkout -b \<branchname\>*"
    ##### In the command above, the branchname can be anything you want.  However, it is good practice to have the branchname be relevant to what you are trying to do.  In this instance a branchname of pull-request-userid (using your GitHub userid) would be best.
@@ -46,3 +46,7 @@ This scenario does not require you to have collaborator permissions for the repo
 
 To accomplish this you will need to create your own copy of the repo (known as a **fork**), make changes to your copy, stage and commit your changes and then submit a pull-reqest to have your changes merged with the master branch in the original repo.  Forking a repository allows you to freely experiment with changes without affecting the original project.
 
+To execute the test, do the following:
+1. Login to GitHub and proceed to the repository https://github.com/earcuri-pan/github-tutorial-test/ 
+2. In the upper right-hand corner, click on **"Fork"**
+<img src="images/section2/create-fork-of-repo.png"/>
