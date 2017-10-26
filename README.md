@@ -50,11 +50,11 @@ To execute the test, do the following:
 1. Login to GitHub and proceed to the repository https://github.com/earcuri-pan/github-tutorial-test/ 
 2. In the upper right-hand corner, click on **"Fork"**
 
-![](images/section2/create-fork-of-repo.png)
+   ![](images/section2/create-fork-of-repo.png)
 
 #### When you click on fork, it may ask you where you want to put the fork.  Just put it in your personal account.  Once you do that (or if it doesn't ask) you should see that a new fork has been created under your account and that it is a fork from the original repo:
 
-![](images/section2/new-fork-created.png)
+   ![](images/section2/new-fork-created.png)
 
 3. At this point, in your personal fork of the repo, you have 2 options as to how you add a new file:
    #### Option 1
@@ -75,21 +75,21 @@ To execute the test, do the following:
      
  4. On GitHub, go into the directory you made in Section 1
  #### Notice it now says that your fork (branch) is 1 commit ahead of earcuri-pan:master, the original repo
-     ![](images/section2/fork-ahead-of-orig.png)
+   ![](images/section2/fork-ahead-of-orig.png)
  
  5. Click on "Pull request" to the right of that message in the header
  6. You will now see the comparison of the two repos and the changes that you made.  Click on the green "Create pull request"
- ![](/images/section2/create-fork-pull-request)
+    ![](/images/section2/create-fork-pull-request)
  
  7. The "Open a pull request" screen is shown.  Add in a description as to what/why/etc and click the green "Create pull request"
- ![](images/section2/desc-for-fork-pull-request.png)
+    ![](images/section2/desc-for-fork-pull-request.png)
  
  ### You are now done with your pull-request.  There is no further action required on your part.  
  
  For your own edification, the below screenshot it what the SP-Solutions team sees once you submit your pull request.  As long as everything is done properly, we should see this for your submission and you will receive an email within 24 hours that your pull-request was accepted.  You can then go see your changes in the master branch of https://github.com/earcuri-pan/github-tutorial-test/ 
  
  
- ![](images/section2/spsolutions-view.png)
+   ![](images/section2/spsolutions-view.png)
  
      
 
