@@ -82,11 +82,13 @@ To execute the test, do the following:
  ![](/images/section2/create-fork-pull-request)
  
  7. The "Open a pull request" screen is shown.  Add in a description as to what/why/etc and click the green "Create pull request"
- ![](images/section2/desc-for-fork-pull-request)
+ ![](images/section2/desc-for-fork-pull-request.png)
  
  ### You are now done with your pull-request.  There is no further action required on your part.  
  
  For your own edification, the below screenshot it what the SP-Solutions team sees once you submit your pull request.  As long as everything is done properly, we should see this for your submission and you will receive an email within 24 hours that your pull-request was accepted.  You can then go see your changes in the master branch of https://github.com/earcuri-pan/github-tutorial-test/ 
+ 
+ 
  ![](images/section2/spsolutions-view.png)
  
      
