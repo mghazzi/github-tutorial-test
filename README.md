@@ -40,3 +40,9 @@ To execute the test this way, you can do the following:
 ### You should now see your commit request and it has been submitted to the SP-Solutions team to be merged.  Allow 24 hours for you pull request to be accepted/rejected (with reasons).  
 You can add comments in the conversation tab if you forgot something and you can look at the "Commits" and "Files changed" tabs to see how GitHub represents the changes you are proposing.   Once your pull-request has been accepted and merged, the repo admin will delete your branch in GitHub.  If you want to go back to your local repo and are still in your pull-request branch, you can change back to master by issuing the command "*git checkout master*" and then you can delete your pull-request branch, if you want, with this command - "*git branch -d pull-request-\<userid\>*"
 
+
+## Section 2
+This scenario does not require you to have collaborator permissions for the repo and you can do this with ***any*** open source project on GitHub.  We will be ***forking*** the original repo and making our changes that way.  Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.  See the [GitHub page on forks](https://help.github.com/articles/fork-a-repo/#platform-linux "GitHub Forks") for more information, if interested.  
+
+To accomplish this you will need to create your own copy of the repo (known as a **fork**), make changes to your copy, stage and commit your changes and then submit a pull-reqest to have your changes merged with the master branch in the original repo.  Forking a repository allows you to freely experiment with changes without affecting the original project.
+
