@@ -88,6 +88,8 @@ To execute the test, do the following:
  
  For your own edification, the below screenshot it what the SP-Solutions team sees once you submit your pull request.  As long as everything is done properly, we should see this for your submission and you will receive an email within 24 hours that your pull-request was accepted.  You can then go see your changes in the master branch of https://github.com/earcuri-pan/github-tutorial-test/ 
  
+Notice next to the green "Open" button, it states that the user wants to merge 1 commit from their forked repo back into the original repo.  
+ 
  
    ![](images/section2/spsolutions-view.png)
  
