@@ -63,7 +63,7 @@ To execute the test, do the following:
 
 3. At this point, in your personal fork of the repo, you have 2 options as to how you add a new file:
    #### Option 1
-   - clone the repo back to your system
+   - clone the repo back to your system ***using ssh***
    - create a new file under your directory that you created in Section 1
    - stage and commit the changes
    - push the changes back up to your repo
