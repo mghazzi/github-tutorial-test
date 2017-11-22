@@ -19,7 +19,7 @@ To accomplish this you will need to create a branch, stage and commit your chang
 Once you have received an email stating that access has been granted, you can do the following:
 
 To execute the test, do the following:
-1. Clone this repository and change into the directory
+1. Clone this repository ***using ssh*** and change into the directory
 2. Create a new branch by using this command - "*git checkout -b \<branchname\>*"
    ##### In the command above, the branchname can be anything you want.  However, it is good practice to have the branchname be relevant to what you are trying to do.  In this instance a branchname of pull-request-userid (using your GitHub userid) would be best.
 3. Issue the command "*git branch*" to verify that you are on the branch you created.
