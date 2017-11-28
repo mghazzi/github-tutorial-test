@@ -7,6 +7,8 @@ There are two sections for executing the test.
 
 * [Section 2](#Section-2) is how you will deal with open source projects where you don't know the maintainers at all but still want to contribute.  The second section will work regardless of whether you are a collaborator or not.  The first section requires that you be a collaborator
 
+First, you will need to [set up ssh keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).  In the future, it is suggested that you use SSH wherever possible.  If (when) you are added to the Palo Alto Networks GitHub organization, you will be required to use two-factor authentication with all GitHub pulls/pushes to that org.  Using ssh keys will minimize the run-around that the 2FA causes.  Using https to push/pull requires adding a [personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line) and then adding it to a keychain, which is different for every OS, of course.   
+
 ## Section 1 <a id="Section-1"></a>
 Send an email to the SP-Solutions team (address is on Page 19 of the tutorial document) with your GitHub userid and the request to be added as a collaborator on the repository.  Please allow 24 hours for this request to be filled.  
 
@@ -17,7 +19,7 @@ To accomplish this you will need to create a branch, stage and commit your chang
 Once you have received an email stating that access has been granted, you can do the following:
 
 To execute the test, do the following:
-1. Clone this repository and change into the directory
+1. Clone this repository ***using ssh*** and change into the directory
 2. Create a new branch by using this command - "*git checkout -b \<branchname\>*"
    ##### In the command above, the branchname can be anything you want.  However, it is good practice to have the branchname be relevant to what you are trying to do.  In this instance a branchname of pull-request-userid (using your GitHub userid) would be best.
 3. Issue the command "*git branch*" to verify that you are on the branch you created.
@@ -61,7 +63,7 @@ To execute the test, do the following:
 
 3. At this point, in your personal fork of the repo, you have 2 options as to how you add a new file:
    #### Option 1
-   - clone the repo back to your system
+   - clone the repo back to your system ***using ssh***
    - create a new file under your directory that you created in Section 1
    - stage and commit the changes
    - push the changes back up to your repo
